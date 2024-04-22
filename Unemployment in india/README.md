@@ -1,1 +1,3 @@
-
+Dataset contains unemployment statistics for Indian states including date of recording, measured monthly. It includes rates of unemployment, employed individuals, and labor participation among 16-64 year-olds.
+Analyze trends in unemployment across Indian states over time, focusing on monthly data. Investigate factors affecting unemployment rates and explore variations in labor participation and employment levels. Provide insights into the impact of these trends on the Indian job market.
+Our main goal is to understand how the COVID-19 pandemic affected jobs in India. We're looking at data that tells us about unemployment rates in different states of India. This data includes important details like the names of the states, dates, how often measurements were taken, the percentage of people unemployed, the number of people estimated to be employed, and the percentage of people participating in the workforce.
