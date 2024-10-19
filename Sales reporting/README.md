@@ -15,8 +15,7 @@
  
  Which day had the most sales in February 2019? 
  
-      February 25, with a sales amount
- of $253,915.47.
+      February 25, with a sales amount of $253,915.47.
  
  Which country/region is the company seeing the most success in? 
  
