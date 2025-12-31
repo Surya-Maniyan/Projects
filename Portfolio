@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Analyst Portfolio | Insights That Drive Growth</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="bg-slate-50 text-slate-900 font-sans leading-normal tracking-normal">
+
+    <nav class="bg-white p-6 shadow-sm sticky top-0 z-50">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-xl font-bold text-blue-600 uppercase tracking-widest">DataAnalyst.IO</h1>
+            <div class="space-x-6 font-medium">
+                <a href="#services" class="hover:text-blue-600 transition">Services</a>
+                <a href="#portfolio" class="hover:text-blue-600 transition">Portfolio</a>
+                <a href="#contact" class="bg-blue-600 text-white px-5 py-2 rounded-lg hover:bg-blue-700">Get a Quote</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="container mx-auto px-6 py-20 text-center">
+        <h2 class="text-5xl md:text-6xl font-extrabold mb-4">Transforming Raw Data into <span class="text-blue-600">Actionable Revenue</span></h2>
+        <p class="text-xl text-slate-600 mb-8 max-w-2xl mx-auto">I help businesses identify trends, optimize operations, and predict future outcomes using advanced statistical modeling and visualization.</p>
+        <div class="flex justify-center gap-4">
+            <a href="#portfolio" class="bg-slate-900 text-white px-8 py-3 rounded-md font-semibold hover:bg-slate-800">View My Work</a>
+            <a href="#services" class="border border-slate-300 px-8 py-3 rounded-md font-semibold hover:bg-slate-100">My Process</a>
+        </div>
+    </header>
+
+    <section class="bg-white py-10 border-y border-slate-100">
+        <div class="container mx-auto px-6 text-center">
+            <p class="text-sm uppercase font-bold text-slate-400 mb-6">Expertise in the Modern Data Stack</p>
+            <div class="flex flex-wrap justify-center gap-8 md:gap-16 opacity-60 grayscale">
+                <span class="text-2xl font-bold">PYTHON</span>
+                <span class="text-2xl font-bold">SQL</span>
+                <span class="text-2xl font-bold">TABLEAU</span>
+                <span class="text-2xl font-bold">POWER BI</span>
+                <span class="text-2xl font-bold">EXCEL (VBA)</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="container mx-auto px-6 py-20">
+        <h3 class="text-3xl font-bold text-center mb-16">How I Help Your Business</h3>
+        <div class="grid md:grid-cols-3 gap-10">
+            <div class="bg-white p-8 rounded-xl shadow-sm border border-slate-100">
+                <div class="text-blue-600 text-3xl mb-4"><i class="fas fa-chart-line"></i></div>
+                <h4 class="text-xl font-bold mb-2">Predictive Analytics</h4>
+                <p class="text-slate-600">Forecast sales and customer churn using machine learning models to stay ahead of the curve.</p>
+            </div>
+            <div class="bg-white p-8 rounded-xl shadow-sm border border-slate-100">
+                <div class="text-blue-600 text-3xl mb-4"><i class="fas fa-database"></i></div>
+                <h4 class="text-xl font-bold mb-2">Automated Reporting</h4>
+                <p class="text-slate-600">Stop wasting hours on manual Excel updates. I build self-updating dashboards for real-time tracking.</p>
+            </div>
+            <div class="bg-white p-8 rounded-xl shadow-sm border border-slate-100">
+                <div class="text-blue-600 text-3xl mb-4"><i class="fas fa-magnifying-glass-chart"></i></div>
+                <h4 class="text-xl font-bold mb-2">Data Cleaning</h4>
+                <p class="text-slate-600">Transform messy, unstructured data into a clean, single source of truth for reliable decision making.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="bg-slate-900 text-white py-20">
+        <div class="container mx-auto px-6 max-w-4xl text-center">
+            <h3 class="text-3xl font-bold mb-4">Ready to unlock your data?</h3>
+            <p class="text-slate-400 mb-10">Send me a message about your project and I'll get back to you within 24 hours.</p>
+            <form class="grid md:grid-cols-2 gap-4 text-left">
+                <input type="text" placeholder="Your Name" class="p-4 rounded bg-slate-800 border border-slate-700 focus:outline-none focus:border-blue-500">
+                <input type="email" placeholder="Your Email" class="p-4 rounded bg-slate-800 border border-slate-700 focus:outline-none focus:border-blue-500">
+                <textarea placeholder="Tell me about your data goals..." class="p-4 rounded bg-slate-800 border border-slate-700 focus:outline-none focus:border-blue-500 md:col-span-2 h-32"></textarea>
+                <button type="submit" class="md:col-span-2 bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 rounded transition">Send Project Inquiry</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="py-10 text-center text-slate-500 text-sm">
+        &copy; 2024 Data Analyst Portfolio. Built with precision.
+    </footer>
+
+</body>
+</html>
